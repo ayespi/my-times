@@ -40,3 +40,24 @@
   text-decoration: underline;
   color: #000;
 }
+
+.main, .column{
+  display: flex;
+}
+
+
+.main div{
+  border: 1px solid #ccc;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
