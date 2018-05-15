@@ -1,0 +1,42 @@
+.header{
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+}
+
+.logo,
+.navigation{
+  flex-basis: 50%;
+  margin-bottom: 10px;
+  /* border: 1px solid #ccc; */
+}
+
+.logo{
+  color: MediumAquaMarine;
+  padding-left: 10px;
+  display: flex;
+}
+
+#logo-text{
+  padding: 30px 0px 0px 10px;
+}
+
+.navigation{
+  padding-right: 10px;
+}
+
+.navigation ul{
+  text-align: right;
+}
+
+.navigation li{
+  display: inline-block;
+  padding: 15px;
+}
+
+.navigation a{
+  text-decoration: underline;
+  color: #000;
+}
